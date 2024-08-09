@@ -1,1 +1,5 @@
+name: 'data_campus_docs_ccc'
+version: '1.0.0'
+config-version: 2
+
 docs-paths: ["docs"]
