@@ -95,3 +95,52 @@ Count of retention enrollments divided by total enrollment
 
 *[Retention Count] / [Enroll Count]*
 {% enddocs %}
+
+{% docs enrollment_status_code %}
+Enrollment Status Code that matches the [SB15](https://webdata.cccco.edu/ded/sb/sb15.pdf) definition:
+* 1 - First Time
+* 2 - First Time Transfer
+* 3 - Returning
+* 5 - Continuing
+* Y - Dual Enrollment/Special Admit
+* X - Not Collected due to enrollment in Non-credit courses
+{% enddocs %}
+
+{% docs enrollment_status %}
+Status of the student enrollment in a term, as follows:
+* **First-Time** - A student enrolled in any college for the first time after High School.
+* **First-Time Transfer** - A student enrolled at Delta College for the first time and who transferred from another institution of higher education.
+* **Returning** - A student enrolled at the reporting college after an absence of one or more primary terms.
+* **Continuing** - A student enrolled in the current session and was enrolled in the previous regular session.
+* **Dual Enrollment/Special Admit** - A Special Admit student currently enrolled in K-12 this includes students in dual enrollment (CCAP) courses, contract education, and middle college high school.
+{% enddocs %}
+
+{% docs promise_flag %}
+Yes/No value for students who receive a Promise Grant. Formerly called the California Board of Governors (BOG) Fee Waiver; issued by the state of California and waives the enrollment fees of qualifying California community college students.
+{% enddocs %}
+
+{% docs ccap_course %}
+Yes/No value if the class is California College and Career Access Pathways (CCAP)
+{% enddocs %}
+
+{% docs dual_enroll %}
+Dual enrollment - also known as concurrent enrollment or special admit - enables high school students to take college courses, taught by college professors, at their high school campus. These courses can also count toward your high school diploma, allowing students to get a head start on their higher education goals.
+{% enddocs %}
+
+{% docs top_full %}
+Full code and description for the Taxonomy of Program (TOP), e.g. '100200 - Art'.
+
+*The TOP is a system of numerical codes used at the state level to collect and report information on programs and courses, in different colleges throughout the state, that have similar outcomes.*
+{% enddocs %}
+
+{% docs top_code %}
+Code for the Taxonomy of Program (TOP), e.g. '100200'.
+
+*The TOP is a system of numerical codes used at the state level to collect and report information on programs and courses, in different colleges throughout the state, that have similar outcomes.*
+{% enddocs %}
+
+{% docs top_desc %}
+Description for the Taxonomy of Program (TOP), e.g. 'Art'.
+
+*The TOP is a system of numerical codes used at the state level to collect and report information on programs and courses, in different colleges throughout the state, that have similar outcomes.*
+{% enddocs %}
