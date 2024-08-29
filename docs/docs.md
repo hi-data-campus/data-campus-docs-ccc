@@ -50,7 +50,7 @@ The WSCH/FTES ratio is calculated by dividing the total WSCH by the FTES
 A higher WSCH/FTES ratio indicates greater instructional efficiency, meaning more contact hours are being generated per full-time equivalent student. This ratio is important for funding and planning purposes, as it helps institutions allocate resources efficiently and measure the productivity of instructional programs.
 {% enddocs %}
 
-{% docs accounting_method %}
+{% docs accounting_method_code %}
 **Accounting Method Types**
 
 **Weekly Census**
@@ -74,6 +74,18 @@ A higher WSCH/FTES ratio indicates greater instructional efficiency, meaning mor
 **Alternative Attendance**
 * Independent study, work experience
 * DE and hybrid classes
+{% enddocs %}
+
+{% docs accounting_method_desc %}
+Title description for the Funding Accounting Method Code
+{% enddocs %}
+
+{% docs accounting_method_category %}
+A categorical grouping of Funding Accounting Method Codes
+{% enddocs %}
+
+{% docs accounting_method_sort_key %}
+Numeric sort key to order the Accounting Method codes in the desired order
 {% enddocs %}
 
 {% docs success_count %}
