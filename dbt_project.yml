@@ -3,3 +3,16 @@ version: '1.0.0'
 config-version: 2
 
 docs-paths: ["docs"]
+
+seeds:
+  data_campus_docs_ccc:
+    cccco_top_code_mapping:
+      +column_types:
+        top_code: varchar(6)
+        top_code2: varchar(7)
+    cccco_top_cip_mapping:
+      +column_types:
+        top_code: varchar(6)
+        top_code2: varchar(7)
+        cip_code: varchar(6)
+        cip_code2: varchar(7)
