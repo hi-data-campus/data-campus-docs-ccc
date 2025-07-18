@@ -160,3 +160,16 @@ Description for the Taxonomy of Program (TOP), e.g. 'Art'.
 {% docs cte_flag %}
 Yes/No value for Career Technical Education (CTE), which is a broad category of Taxonomy of Program (TOP) codes for vocational and other types of education
 {% enddocs %}
+
+{% docs sam_code %}
+The California Community Colleges Chancellor's Office Course Basic Element (CB) 09 is designed to indicate the Career Technical Education (CTE) status of courses and serves to meet the CTE Student Accountability Model (SAM) requirements for various forms of CTE funding that seek to ensure student progress through CTE programs;
+
+There are five possible codes for CB09:
+* E - Not Occupational
+* D - Possibly Occupational/Introductory
+* C - Clearly Occupational
+* B - Advanced Occupational
+* A - Apprenticeship
+
+Assigning a CB09 code D to a course does not qualify that course as CTE for the purposes of funding and tracking when many of the students enrolled in these courses are CTE students, and assigning code B mandates a requisite or capstone relationship to other CTE courses which imposes an unnecessary reduction in program course-offering flexibility, and assigning code A is restricted to apprenticeship courses when there are many courses that are intended for post-employment/hiring career technical training, all of which lead most faculty to code their courses using CB09 C;
+{% enddocs %}
