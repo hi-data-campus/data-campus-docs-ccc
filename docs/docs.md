@@ -156,3 +156,7 @@ Description for the Taxonomy of Program (TOP), e.g. 'Art'.
 
 *The TOP is a system of numerical codes used at the state level to collect and report information on programs and courses, in different colleges throughout the state, that have similar outcomes.*
 {% enddocs %}
+
+{% docs cte_flag %}
+Yes/No value for Career Technical Education (CTE), which is a broad category of Taxonomy of Program (TOP) codes for vocational and other types of education
+{% enddocs %}
