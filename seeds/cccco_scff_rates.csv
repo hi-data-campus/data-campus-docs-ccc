@@ -1,0 +1,17 @@
+category_code,category,academic_year_code,academic_year_desc,rate_amount
+BC,Base Credit,2023,2023-24,5238
+BC,Base Credit,2024,2024-25,5294
+IC,Incarcerated Credit,2023,2023-24,7346
+IC,Incarcerated Credit,2024,2024-25,7425
+SA,Special Admit Credit,2023,2023-24,7346
+SA,Special Admit Credit,2024,2024-25,7425
+CD,CDCP,2023,2023-24,7346
+CD,CDCP,2024,2024-25,7425
+NC,Noncredit,2023,2023-24,4417
+NC,Noncredit,2024,2024-25,4465
+SP,Supplemental Point Value,2023,2023-24,1239
+SP,Supplemental Point Value,2024,2024-25,1252
+SS,Student Success Main Point Value,2023,2023-24,730
+SS,Student Success Main Point Value,2024,2024-25,738
+SS,Student Success Equity Point Value,2023,2023-24,184
+SS,Student Success Equity Point Value,2024,2024-25,186
